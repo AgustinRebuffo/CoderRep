@@ -1,0 +1,16 @@
+.discmainh {
+    min-height: 100vh;
+    display: map-get($estilos, dispflex );
+    align-items: map-get($estilos, centro );
+}
+.hisimg {
+    width: 80%;
+    height: auto;
+    border-radius: 1px;
+}
+
+
+.histext {
+    font-family: $fontJosefin;
+    font-size: larger;
+}

@@ -1,0 +1,19 @@
+.contacth2 {
+    font-family: $fontJosefin;
+    text-align: map-get($estilos, centro );
+    padding: $tam20px 0px $tam20px 0px;
+}
+.formgr {
+    display: map-get($estilos, dispflex );
+    flex-direction: column;
+    gap: 20px;
+    label {
+        font-family: $fontJosefin;
+    }
+    input {
+        font-family: $fontJosefin;
+    }
+}
+.btnForm {
+    margin-top: $tam20px;
+}

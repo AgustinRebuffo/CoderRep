@@ -1,0 +1,34 @@
+@import '../abstract/variables';
+@import '../abstract/maps';
+
+
+
+header {
+    font-family: $fontJosefin;
+    .a_titulo {
+        font-size: xx-large;
+        font-weight: map-get($estilos, negrita );
+    }
+    color: map-get($estilos, negro );
+    background-color:map-get($estilos, celeste);
+    font-size: large;
+    ul {
+        margin: 0.5em auto;
+        li {
+            font-weight: map-get($estilos, negrita );
+            padding-right: $tam20px/2;
+        }
+    }
+}
+.nav_g {
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+

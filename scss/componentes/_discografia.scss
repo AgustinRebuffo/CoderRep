@@ -1,0 +1,17 @@
+.discmain {
+    min-height: 100vh;
+}
+.disch2 {
+    font-family: $fontJosefin;
+    text-align: map-get($estilos, centro );
+    padding: $tam20px 0px $tam20px 0px;
+}
+.contpadredisc {
+    display: map-get($estilos, dispflex );
+    justify-content: map-get($estilos, centro );
+    flex-wrap: wrap;
+}
+.divdisc {
+    padding: 50px;
+    margin: 1%;
+}

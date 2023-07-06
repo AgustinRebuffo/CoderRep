@@ -1,0 +1,20 @@
+@import '../abstract/variables';
+@import '../abstract/maps';
+
+.contpadresh {
+    display: map-get($estilos, dispflex );
+    justify-content: map-get($estilos, centro );
+    flex-wrap: wrap;
+}
+.shopicon {
+    width: 400px;
+    height: 400px;
+    vertical-align:baseline;
+}
+.contshop {
+    padding: 50px;
+}
+.shopdiv {
+    text-align: map-get($estilos, centro );
+    font-family: $fontJosefin;
+}

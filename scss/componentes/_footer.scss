@@ -1,0 +1,22 @@
+@import '../abstract/variables';
+@import '../abstract/maps';
+
+footer {
+    color: map-get($estilos, negro );
+    background-color: map-get($estilos, celeste);
+}
+.divredes {
+    justify-content: space-between;
+}
+.iconosred {
+    display:map-get($estilos, dispflex );
+    gap: $tam20px;
+    width: fit-content;
+}
+.redes {
+    text-decoration: none;
+    img{
+        width: $tam20px*2;
+        height: auto;
+    }
+}

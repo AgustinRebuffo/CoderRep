@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página fanmade de la banda In Flames.">
+    <meta name="keywords" content="IN FLAMES, ROCK, METAL, BANDA, BAND">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <title>In Flames - Home</title>
+    <title>In Flames - Contacto</title>
 </head>
 
 <body>
@@ -18,7 +23,7 @@
             <div>
                 <nav class="navbar navbar-expand-lg  ">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">In Flames</a>
+                      <a class="navbar-brand a_titulo" href="#">In Flames</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -48,37 +53,38 @@
         
         
     </header>
-    <main>
-        <div class="contenCont">
-            <div class="divCont">
-                <h2>Apreciamos tu feedback!</h2>
-                <img src="../imgs/logo.jpg">
-            </div>
-        </div>
-        <div class="contenCont">
-            <form>
-                <ul class="formUl">
-                    <li>
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="user_name">
-                    </li>
-                    </br>
-                    <li>
-                        <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_mail">
-                    </li>
-                    </br>
-                    <li>
-                        <label for="msg">Mensaje:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    </br>
-                    <li class="button">
-                        <button type="submit">Envíe su mensaje</button>
-                    </li>
-                </ul>
+    <main class="discmain">
+        <h2 class="contacth2">Apreciamos tu feedback!</h2>
         
-            </form>
+        <div class="container pt-3 body_style mb-5">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 col-md-8 col-lg-8 text-left">
+                    <img src="../imgs/logo.jpg">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 mt-5">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="form-group formgr">
+                            <label for="exampleFormControlInput1">Nombre</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tú Nombre">
+                        </div>
+                        <div class="form-group formgr">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tú email de contacto">
+                        </div>
+                        <div class="form-group formgr">
+                            <label for="exampleFormControlTextarea1">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingresa el mensaje que nos quieras dejar"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btnForm">Enviar</button>
+                    </form>
+    
+    
+                </div>
+            </div>
+        <br>
+        <br>
+        <br>
+        <br>
         </div>
 
 
@@ -87,26 +93,25 @@
     </main>
     <footer>
         <div class="container">
-            <div class="row p-5">
+            <div class="row p-5 divredes">
                 <div class="col-12 col-md-8 col-md-8 text-left">
                     <p>Página sin fines de lucro</p>
                     <p>© 2023 COPYRIGHT AGUSTIN REBUFFO</p>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 text-center">
+                <div class="col-12 col-md-4 col-lg-4 text-center iconosred">
                     <a class="redes"
                         href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q?&ab_channel=LinkinPark"
                         target="_blank">
-                        <img src="../imgs/ytico.png">
+                        <img src="../imgs/ytico.svg">
                     </a>
                     </a>
                     <a class="redes" href="https://twitter.com/linkinpark" target="_blank">
-                        <img src="../imgs/twiico.png">
+                        <img src="../imgs/twiico.svg">
                     </a>
                     <a class="redes" href="https://www.instagram.com/linkinpark/" target="_blank">
-                        <img src="../imgs/instico.png">
+                        <img src="../imgs/instico.svg">
                     </a>
                 </div>
-  
             </div>
         </div>
     </footer>
