@@ -11,3 +11,22 @@
 .ind_h2 {
     text-align: map-get($estilos, centro );
 }
+
+.contgrilla {
+   @include animate(bounce)
+}
+
+  @keyframes bounce {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    40% {
+        transform: translateX(40%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+  }

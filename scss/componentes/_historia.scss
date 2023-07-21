@@ -1,7 +1,26 @@
-.discmainh {
+.histcontainer {
+    flex-direction: row;
+    text-align: map-get($estilos, centro );
+    @media (max-width: 1250px) {
+        flex-direction: map-get($estilos, columns );
+        text-align: map-get($estilos, centro );
+    }
+}
+.hish1 {
+    font-family: $fontJosefin;
+    text-align: map-get($estilos, centro );
+    padding: $tam20px 0px $tam20px 0px;
+}
+.prcontainerh {
     min-height: 100vh;
     display: map-get($estilos, dispflex );
+    flex-direction: map-get($estilos, columns );
+}
+.discmainh {
+    display: map-get($estilos, dispflex );
     align-items: map-get($estilos, centro );
+    flex-direction: map-get($estilos, columns );
+    flex: 1;
 }
 .hisimg {
     width: 80%;
@@ -13,4 +32,9 @@
 .histext {
     font-family: $fontJosefin;
     font-size: larger;
+    padding: 30px;
+}
+
+.cont1, .cont2 {
+    width: 100%;
 }

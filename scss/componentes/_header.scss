@@ -1,8 +1,3 @@
-@import '../abstract/variables';
-@import '../abstract/maps';
-
-
-
 header {
     font-family: $fontJosefin;
     .a_titulo {
@@ -16,7 +11,7 @@ header {
         margin: 0.5em auto;
         li {
             font-weight: map-get($estilos, negrita );
-            padding-right: $tam20px/2;
+            padding-right: calc($tam20px/2);
         }
     }
 }

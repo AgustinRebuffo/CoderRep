@@ -41,6 +41,24 @@ header ul li {
   text-align: center;
 }
 
+.contgrilla {
+  animation: bounce 4s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  40% {
+    transform: translateX(40%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 footer {
   color: black;
   background-color: lightblue;
@@ -85,10 +103,34 @@ footer {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.discmainh {
+.histcontainer {
+  flex-direction: row;
+  text-align: center;
+}
+@media (max-width: 1250px) {
+  .histcontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.hish1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.prcontainerh {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.discmainh {
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  flex: 1;
 }
 
 .hisimg {
@@ -100,13 +142,27 @@ footer {
 .histext {
   font-family: "Josefin Sans", sans-serif;
   font-size: larger;
+  padding: 30px;
+}
+
+.cont1, .cont2 {
+  width: 100%;
+}
+
+.prcontainerd {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .discmain {
-  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
 }
 
-.disch2 {
+.disch1 {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   padding: 20px 0px 20px 0px;
@@ -121,6 +177,12 @@ footer {
 .divdisc {
   padding: 50px;
   margin: 1%;
+}
+
+.prcontainerc {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacth2 {

@@ -1,7 +1,15 @@
-.discmain {
+.prcontainerd {
     min-height: 100vh;
+    display: map-get($estilos, dispflex );
+    flex-direction: map-get($estilos, columns );
 }
-.disch2 {
+.discmain {
+    display: map-get($estilos, dispflex );
+    align-items: map-get($estilos, centro );
+    flex-direction: map-get($estilos, columns );
+    flex: 1;
+}
+.disch1 {
     font-family: $fontJosefin;
     text-align: map-get($estilos, centro );
     padding: $tam20px 0px $tam20px 0px;

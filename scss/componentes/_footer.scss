@@ -1,6 +1,3 @@
-@import '../abstract/variables';
-@import '../abstract/maps';
-
 footer {
     color: map-get($estilos, negro );
     background-color: map-get($estilos, celeste);

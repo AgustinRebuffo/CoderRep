@@ -1,6 +1,3 @@
-@import '../abstract/variables';
-@import '../abstract/maps';
-
 .contpadresh {
     display: map-get($estilos, dispflex );
     justify-content: map-get($estilos, centro );

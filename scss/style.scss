@@ -1,3 +1,7 @@
+@import './abstract/mixins.scss';
+@import './abstract/maps';
+@import './abstract/variables';
+
 @import './componentes/body';
 @import './componentes/header';
 @import './componentes/main.scss';

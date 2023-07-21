@@ -1,3 +1,8 @@
+.prcontainerc {
+    min-height: 100vh;
+    display: map-get($estilos, dispflex );
+    flex-direction: map-get($estilos, columns );
+}
 .contacth2 {
     font-family: $fontJosefin;
     text-align: map-get($estilos, centro );
@@ -5,7 +10,7 @@
 }
 .formgr {
     display: map-get($estilos, dispflex );
-    flex-direction: column;
+    flex-direction: map-get($estilos, columns );
     gap: 20px;
     label {
         font-family: $fontJosefin;
